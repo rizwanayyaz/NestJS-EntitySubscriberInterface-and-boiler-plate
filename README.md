@@ -30,6 +30,14 @@ This is testing repo to check working of EntitySubscriberInterface in TypeORM us
 
 ```bash
 $ yarn install
+
+#Create .env file at root folder and add below
+DB_HOST=localhost 
+DB_TYPE=mysql
+DB_PORT=3306
+DB_USERNAME=root
+DB_PASSWORD=
+DB_NAME=nestapp
 ```
 
 ## Running the app
