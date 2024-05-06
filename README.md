@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is testing repo to check working of EntitySubscriberInterface in TypeORM using NestJs. You can check more in this link https://typeorm.io/listeners-and-subscribers#what-is-a-subscriber
 
 ## Installation
 
@@ -56,6 +56,12 @@ $ yarn run test:e2e
 
 # test coverage
 $ yarn run test:cov
+
+## Running App With Docker
+Build docker image make sure you are in a project directory where you have Dockerfile
+$ docker build -f Dockerfile -t crudcontainerization .
+# If you are running on local then in DB_HOST mention the ip of you pc you can get it from running ipconfig in windows cmd, you can also change the port from 3000 to your choice
+$ docker run --env-file .env -p3000:3000 crudcontainerization
 ```
 
 ## Support
