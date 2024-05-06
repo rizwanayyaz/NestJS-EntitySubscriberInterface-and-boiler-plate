@@ -56,8 +56,11 @@ $ yarn run test:e2e
 
 # test coverage
 $ yarn run test:cov
+```
 
 ## Running App With Docker
+
+```bash
 Build docker image make sure you are in a project directory where you have Dockerfile
 $ docker build -f Dockerfile -t crudcontainerization .
 # If you are running on local then in DB_HOST mention the ip of you pc you can get it from running ipconfig in windows cmd, you can also change the port from 3000 to your choice
